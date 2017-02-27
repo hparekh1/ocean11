@@ -10,7 +10,6 @@ pipeline {
         stage('Test'){
             steps {
                 echo 'hello is to all'
-                junit 'reports/**/*.xml' 
             }
         }
         stage('Deploy') {
